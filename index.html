@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      body {
+        text-align: center;
+      }
+
+      /* Table stuff */
+      .table-container {
+        width: max-content;
+        min-width: 100%;
+        padding: 0.5rem;
+        margin-top: 2rem;
+      }
+
+      .scroll-container {
+        overflow-y: auto;
+        overflow-x: none;
+        max-height: 14rem;
+        border: 1px solid #3E3E40;
+      }
+
+      table {
+        font-family: monospace;
+        white-space: nowrap;
+        padding: 0.625rem;
+        width: 100%;
+        overflow-x: none;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 0.25rem;
+        background-color: transparent;
+      }
+
+      tr {
+        height: 1.875rem;
+        font-size: 0.8125rem;
+      }
+
+      tr:nth-child(odd) {
+        background-color: #E9EAEA;
+      }
+
+      tr:nth-child(even), th {
+        background-color: #FFFFFF;
+      }
+
+      /* Chart stuff */
+      svg {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table-container">
+      <div class="scroll-container">
+        <table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>location</th>
+      <th>product_type</th>
+      <th>product_description</th>
+      <th>quantity</th>
+      <th>price</th>
+      <th>in_stock</th>
+      <th>total_value</th>
+      <th>full_description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Staten Island</td>
+      <td>seeds</td>
+      <td>daisy</td>
+      <td>4</td>
+      <td>6.99</td>
+      <td>True</td>
+      <td>27.96</td>
+      <td>seeds - daisy</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>seeds</td>
+      <td>calla lily</td>
+      <td>46</td>
+      <td>19.99</td>
+      <td>True</td>
+      <td>919.54</td>
+      <td>seeds - calla lily</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>seeds</td>
+      <td>tomato</td>
+      <td>85</td>
+      <td>13.99</td>
+      <td>True</td>
+      <td>1189.15</td>
+      <td>seeds - tomato</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>garden tools</td>
+      <td>rake</td>
+      <td>4</td>
+      <td>13.99</td>
+      <td>True</td>
+      <td>55.96</td>
+      <td>garden tools - rake</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>garden tools</td>
+      <td>wheelbarrow</td>
+      <td>0</td>
+      <td>89.99</td>
+      <td>False</td>
+      <td>0.00</td>
+      <td>garden tools - wheelbarrow</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>garden tools</td>
+      <td>spade</td>
+      <td>93</td>
+      <td>19.99</td>
+      <td>True</td>
+      <td>1859.07</td>
+      <td>garden tools - spade</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>pest_control</td>
+      <td>insect killer</td>
+      <td>74</td>
+      <td>12.99</td>
+      <td>True</td>
+      <td>961.26</td>
+      <td>pest_control - insect killer</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>pest_control</td>
+      <td>weed killer</td>
+      <td>8</td>
+      <td>23.99</td>
+      <td>True</td>
+      <td>191.92</td>
+      <td>pest_control - weed killer</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>planter</td>
+      <td>20 inch terracotta planter</td>
+      <td>0</td>
+      <td>17.99</td>
+      <td>False</td>
+      <td>0.00</td>
+      <td>planter - 20 inch terracotta planter</td>
+    </tr>
+    <tr>
+      <td>Staten Island</td>
+      <td>planter</td>
+      <td>8 inch plastic planter</td>
+      <td>53</td>
+      <td>3.99</td>
+      <td>True</td>
+      <td>211.47</td>
+      <td>planter - 8 inch plastic planter</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  </body>
+</html>
